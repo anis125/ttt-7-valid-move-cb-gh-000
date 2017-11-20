@@ -5,12 +5,6 @@ elsif  board[index] != " "
   true
 else position_taken?(board,index) == false
   nil
-
-
-
-
-
-
 end
 end
 
