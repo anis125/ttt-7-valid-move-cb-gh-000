@@ -1,7 +1,7 @@
 def valid_move? (board,index)
-if(index.between?(1,9) == false ||  position_taken?(board,index) == true )
+if(index.between?(1,9) == false )
 nil
-else
+elsif(position_taken?(board,index)==false)
   true
 
 
