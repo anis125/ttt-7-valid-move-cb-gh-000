@@ -1,4 +1,4 @@
-def valid_move (board,index)
+def valid_move? (board,index)
   if (position_taken || (position_taken && board[index -1] < board.length))
 true
 else
