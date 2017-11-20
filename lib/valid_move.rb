@@ -1,9 +1,9 @@
 def valid_move? (board,index)
 if position_taken?(board,index ) == false || board[index-1] != " "
   true
-elsif position_taken?(board,index) == true 
+elsif position_taken?(board,index) == true
   nil
-else 
+else
   nil
 end
 end
