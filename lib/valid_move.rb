@@ -9,7 +9,7 @@ else
 end
 end
 def position_taken? ( board , index )
-if (board[index] == " " || board[index] == "" || board[index] == nil)
+if (board[index-1] == " " || board[index-1] == "" || board[index-1] == nil)
  false
 else
  true
