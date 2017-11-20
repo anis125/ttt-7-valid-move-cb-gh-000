@@ -3,9 +3,7 @@ if position_taken?(board,index) == true
   true
 elsif position_taken?(board,index) == true && board[index] != " "
   true
-elsif position_taken?(board,index) == false
-  nil
-else nil
+
 
 
 
