@@ -1,8 +1,8 @@
 def valid_move? (board,index)
-if (position_taken?(board , index) == true || index.between(1,9) == false)
-  nil
-else
-  true
+if position_taken?(board,index ) == false 
+  true 
+else 
+  nil    
 
 end
 end
