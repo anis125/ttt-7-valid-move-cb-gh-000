@@ -1,10 +1,11 @@
 def valid_move? (board,index)
-if(position_taken?(board,index) == false || (index-1).between?(0,8)  )
+if(index.between?(1,9) == false)
+nil
+elsif (position_taken?(board,index) == false  || board[index-1] != " ")
   true
 elsif ( position_taken?(board,index)  )
 nil
-else
-  nil
+
 
 
 end
