@@ -3,10 +3,10 @@ if position_taken?(board,index) == true
   true
 elsif  board[index] != " "
   true
-elsif position_taken?(board,index) == false 
-  nil 
-else 
-  nil 
+elsif position_taken?(board,index) == false
+  nil
+else
+  nil
 
 
 
