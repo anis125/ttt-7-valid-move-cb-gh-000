@@ -3,7 +3,7 @@ if(position_taken?(board,index) == false || board[index-1] != " " || index.betwe
   true
 elsif ( position_taken?(board,index) )
 nil
-
+else nil
 
 end
 
